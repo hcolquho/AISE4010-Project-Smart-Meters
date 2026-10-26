@@ -426,3 +426,17 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# Dataset
+data/
+
+# Large data files
+*.csv
+*.parquet
+*.feather
+*.h5
+*.zip
+
+# Environment files
+.env
+
