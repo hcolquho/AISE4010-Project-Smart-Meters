@@ -429,6 +429,7 @@ FodyWeavers.xsd
 
 # Dataset
 data/
+london_smart_meters_dataset_without_missing_values.tsf
 
 # Large data files
 *.csv
@@ -440,3 +441,9 @@ data/
 # Environment files
 .env
 
+# Python virtual environment
+.venv/
+venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
